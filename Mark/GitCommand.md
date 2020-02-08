@@ -8,6 +8,7 @@ table td:nth-child(1) {
 |---|---|
 |==git init==| 初始化一个git 仓库
 |==git add== |将修改加入暂存区
+|==git add .==|将当前工作区中的全部文件的修改加入暂存区
 |==git commit -m < message >==|将修改从暂存区提交到分支
 |==git status==|查看当前的修改与待提交状态
 |==cd==| 更改工作区目录
@@ -18,6 +19,7 @@ table td:nth-child(1) {
 |==git reset HEAD < file >==|放弃本次暂存区中的修改
 |==git rm==|用于删除一个文件
 |==touch==| 新建文件
+|==mkdir==| 创建一个新目录
 |==pwd==|查看当前工作区目录
 |==git remote add origin < SSH >==|添加远程库（SSH由GitHub仓库提供）,远程库名叫origin，也可以叫其他
 |==git push -u origin master==|本地库的内容推送到远程库实际上是把当前分支master推送到远程库origin，第一次推送master分支的所有内容|
