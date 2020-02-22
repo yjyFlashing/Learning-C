@@ -20,7 +20,7 @@ int main()
     gets(str2);
     for(i = 0;i < strlen(str1);i++)     //先复制第一个字符串中的内容
     {
-        str[i] = str1[i];
+        str[i] = str1[i];   
     }        
     for(j = strlen(str1),n = 0;j < strlen(str1)+strlen(str2);j++,n++)
     {
