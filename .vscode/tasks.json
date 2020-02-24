@@ -1,7 +1,11 @@
 {
     "version": "2.0.0",
     "command": "g++",
-    "args": ["-g","${file}","-o","${fileBasenameNoExtension}.exe"],    // 编译命令参数
+    "args": ["-g",
+            "${file}",
+            //"${fileDirname}./7_20file2.c",  //需要跨文件，多文件调试时应该加入从属文件的调试指令，众多文件只能有一个main（）函数
+            "-o",
+            "${fileBasenameNoExtension}.exe"],    // 编译命令参数
     "problemMatcher": {
         "owner": "cpp",
         "fileLocation": ["relative", "\\"],         //将原本内容改成\\后，可以定位错误位置

@@ -22,7 +22,8 @@
         "3_10.C": "cpp",
         "stdio.h": "c",
         "7_11.C": "cpp",
-        "7_15.C": "cpp"
+        "7_15.C": "cpp",
+        "7_17.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
