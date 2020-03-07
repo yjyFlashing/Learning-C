@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * 改变指针变量的值,控制字符串的部分输出
+ * 改变指针变量的值,控制字符串的部分输出 
  * */
 int main()
 {
